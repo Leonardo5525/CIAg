@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "produtos": {
+      "home": {
+        "title": "Produtos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Maak een nieuwe Produtos",
+        "createOrEditLabel": "Maak of wijzig een Produtos",
+        "notFound": "No Produtos found"
+      },
+      "created": "A new Produtos is created with identifier {{ param }}",
+      "updated": "A Produtos is updated with identifier {{ param }}",
+      "deleted": "A Produtos is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Produtos {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Produtos"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "preco": "Preco",
+      "categoria": "Categoria",
+      "imagem": "Imagem"
+    }
+  }
+}

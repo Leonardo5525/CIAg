@@ -1,0 +1,31 @@
+{
+  "fakeStoreApp": {
+    "customerDetails": {
+      "home": {
+        "title": "Customer Details",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Customer Details",
+        "createOrEditLabel": "Criar ou editar Customer Details",
+        "notFound": "Nenhum Customer Details encontrado"
+      },
+      "created": "Um novo Customer Details foi criado com o identificador {{ param }}",
+      "updated": "Um Customer Details foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Customer Details foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Customer Details {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer Details"
+      },
+      "id": "ID",
+      "gender": "Gender",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "cart": "Cart"
+    }
+  }
+}

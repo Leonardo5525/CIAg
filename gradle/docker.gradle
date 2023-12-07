@@ -9,7 +9,7 @@ jib {
         }
     }
     to {
-        image = "fakestore:latest"
+        image = "store:latest"
     }
     container {
         entrypoint = ["bash", "-c", "/entrypoint.sh"]

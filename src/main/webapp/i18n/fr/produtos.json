@@ -1,0 +1,27 @@
+{
+  "fakeStoreApp": {
+    "produtos": {
+      "home": {
+        "title": "Produtos",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Produtos",
+        "createOrEditLabel": "Créer ou éditer un Produtos",
+        "notFound": "Aucun Produtos trouvé"
+      },
+      "created": "Un nouveau Produtos a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Produtos avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Produtos avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Produtos {{ id }} ?"
+      },
+      "detail": {
+        "title": "Produtos"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "preco": "Preco",
+      "categoria": "Categoria",
+      "imagem": "Imagem"
+    }
+  }
+}

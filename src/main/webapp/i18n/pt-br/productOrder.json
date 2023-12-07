@@ -1,0 +1,27 @@
+{
+  "fakeStoreApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Product Order",
+        "createOrEditLabel": "Criar ou editar Product Order",
+        "notFound": "Nenhum Product Order encontrado"
+      },
+      "created": "Um novo Product Order foi criado com o identificador {{ param }}",
+      "updated": "Um Product Order foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Product Order foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "product": "Product",
+      "cart": "Cart"
+    }
+  }
+}

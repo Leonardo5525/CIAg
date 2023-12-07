@@ -1,0 +1,28 @@
+{
+  "fakeStoreApp": {
+    "contato": {
+      "home": {
+        "title": "Contatoes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Contato",
+        "createOrEditLabel": "Créer ou éditer un Contato",
+        "notFound": "Aucun Contato trouvé"
+      },
+      "created": "Un nouveau Contato a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Contato avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Contato avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Contato {{ id }} ?"
+      },
+      "detail": {
+        "title": "Contato"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "email": "Email",
+      "telefone": "Telefone",
+      "rg": "Rg",
+      "cpf": "Cpf"
+    }
+  }
+}

@@ -17,7 +17,7 @@ plugins {
     // jhipster-needle-gradle-plugins - JHipster will add additional gradle plugins here
 }
 
-group = "br.org.ciag.fakestore"
+group = "com.jhipster.demo.store"
 version = "0.0.1-SNAPSHOT"
 
 description = ""
@@ -93,7 +93,7 @@ eclipse {
 defaultTasks "bootRun"
 
 springBoot {
-    mainClass = "br.org.ciag.fakestore.FakeStoreApp"
+    mainClass = "com.jhipster.demo.store.StoreApp"
 }
 
 test {

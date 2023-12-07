@@ -24,9 +24,9 @@ export class TranslationModule {
     private translateService: TranslateService,
     private stateStorageService: StateStorageService,
   ) {
-    this.translateService.setDefaultLang('pt-br');
+    this.translateService.setDefaultLang('en');
     // if user have changed language and navigates away from the application and back to the application then use previously choosed language
-    const langKey = this.stateStorageService.getLocale() ?? 'pt-br';
+    const langKey = this.stateStorageService.getLocale() ?? 'en';
     this.translateService.use(langKey);
   }
 }

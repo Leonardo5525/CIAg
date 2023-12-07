@@ -1,2 +1,3 @@
 org.springframework.test.context.ContextCustomizerFactory = br.org.ciag.\
-    fakestore.config.SqlTestContainersSpringContextCustomizerFactory
+    fakestore.config.SqlTestContainersSpringContextCustomizerFactory,com.\
+    jhipster.demo.store.config.SqlTestContainersSpringContextCustomizerFactory

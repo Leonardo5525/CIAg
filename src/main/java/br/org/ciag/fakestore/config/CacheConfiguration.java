@@ -48,6 +48,28 @@ public class CacheConfiguration {
             createCache(cm, br.org.ciag.fakestore.domain.User.class.getName());
             createCache(cm, br.org.ciag.fakestore.domain.Authority.class.getName());
             createCache(cm, br.org.ciag.fakestore.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.org.ciag.fakestore.domain.Region.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Country.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Location.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Department.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Department.class.getName() + ".employees");
+            createCache(cm, br.org.ciag.fakestore.domain.Task.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Task.class.getName() + ".jobs");
+            createCache(cm, br.org.ciag.fakestore.domain.Employee.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, br.org.ciag.fakestore.domain.Job.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Job.class.getName() + ".tasks");
+            createCache(cm, br.org.ciag.fakestore.domain.JobHistory.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Contato.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Produtos.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.Product.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.ProductCategory.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, br.org.ciag.fakestore.domain.CustomerDetails.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.CustomerDetails.class.getName() + ".carts");
+            createCache(cm, br.org.ciag.fakestore.domain.ShoppingCart.class.getName());
+            createCache(cm, br.org.ciag.fakestore.domain.ShoppingCart.class.getName() + ".orders");
+            createCache(cm, br.org.ciag.fakestore.domain.ProductOrder.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
